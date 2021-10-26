@@ -1,0 +1,21 @@
+.js-user {
+    background: #fbfbfb;
+}
+/* .active {
+    background-color: rgb(187, 229, 241) !important;
+    box-shadow: 3px 5px 10px black !important;
+} */
+
+.hover{
+    transition: border 0.2s, transform 0.2s;
+    backface-visibility: hidden;
+}
+
+.hover:hover,
+.hover.active {
+    border-color: #07d56d !important;
+}
+/* 
+.hover:hover {
+    transform: scale(1.02);
+} */
